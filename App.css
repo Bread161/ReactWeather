@@ -1,0 +1,28 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.weather-display {
+  margin-top: 20px;
+}
+
+.current-weather,
+.daily-weather {
+  margin: 10px 0;
+}
+
+/* src/WeatherDetails.css */
+.weather-details {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 600px) {
+  .weather-details {
+    font-size: 0.8em;
+  }
+}
