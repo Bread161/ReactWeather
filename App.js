@@ -10,7 +10,7 @@ import WeatherDisplay from './WeatherDisplay';
 import axios from 'axios';
 import './App.css';
 
-const API_KEY = 'YOUR_OPENWEATHER_API_KEY'; // Замените на ваш ключ API
+const API_KEY = '46187195b3531b87e93c6787bd9c8bb8'; // Замените на ваш ключ API
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
